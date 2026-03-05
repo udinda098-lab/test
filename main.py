@@ -13,8 +13,8 @@ if sys.platform == "win32":
     import ctypes
     from ctypes import wintypes
 
-DATA_FILE = "domain_data.json"
-LOG_FILE = "amp_changes.log"
+DATA_FILE = "/data/domain_data.json"
+LOG_FILE = "/data/amp_changes.log"
 CHECK_INTERVAL = 600  # 10 menit
 
 
